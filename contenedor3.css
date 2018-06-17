@@ -1,0 +1,31 @@
+div#textoPr3{
+	font-family: cursive;
+	width: 900px;
+	height: 920px;
+	margin-left: 300px;
+	margin-right: 300px;
+	margin-top: -200px;
+	margin-bottom: 50px;
+	background-color: #D1C6F3;
+	color:black;
+	border-radius: 20px;
+	padding: 20px;
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+	text-align: justify;
+}
+img{
+  border-radius:0px;
+
+  border-width: 8px;
+  border-color: #0002AB;
+  border-style: groove;
+ }
+ .tuclase3 h1 {
+text-align: center; 
+font-family: cursive; 
+font-weight: bold; 
+font-size: 50px; 
+color: rgba(255, 255, 255, 0); 
+text-shadow: 0 0 5px #00014A; 
+text-transform: uppercase;
+}

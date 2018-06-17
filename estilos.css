@@ -1,0 +1,140 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+.menu ul{
+	list-style: none;
+	margin: 0;
+}
+.menu ul li{
+	margin-top: 20px;
+	padding: 15px;
+	position: relative;
+	width: 200px;
+	background-color: #F08080;
+	width: 160px;
+	padding-top:15px;
+	padding-bottom: 12px;
+	border-radius: 0px 20px 0px;
+	padding-left: 22px;
+	box-shadow: 5px 0px 12px black;
+	-webkit-transition:padding-left 0.7s;
+}
+.menu ul ul {
+	margin-left: 20px;
+	transition: all 0.3s;
+	opacity: 0;
+	position: absolute;
+	visibility: hidden;
+	left: 99%;
+	top:  -.5%;
+}
+.menu ul li:hover>ul{
+	opacity: 1;
+	visibility: visible;
+	color: black;
+}
+.menu ul li:hover{
+	padding-left: 60px;
+	background:linear-gradient(30deg, crimson,sienna, royalblue, indianred, purple);
+}
+.menu ul li a {
+	font-family: cursive;
+	font-size: 18px;
+	color: black;
+	text-decoration: none;
+}
+span{
+	margin-right: 15px;
+}
+div#textoPr{
+	font-family: cursive;
+	width: 900px;
+	height: 200px;
+	margin-left: 300px;
+	margin-right: 300px;
+	margin-top: -250px;
+	margin-bottom: 50px;
+	background-color: #D1C6F3;
+	color:black;
+	border-radius: 20px;
+	padding: 20px;
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+	text-align: justify;
+}
+h2{
+	font-family: fantasy;
+	font-size: 60px;
+	color: #E9967A;
+	text-transform: uppercase;
+	text-align: center;
+}
+h3{
+	font-family: Adobe Caslon Pro Bold;
+	font-size: 25px;
+	color: black;
+	text-transform: unset;
+	text-align: justify;
+}
+h4{
+	font-family: fantasy;
+	font-size: 25px;
+	color: red;
+	text-transform: unset;
+	text-align: justify;
+}
+
+div#imagen img:hover{
+	filter: grayscale(80%);
+}
+div#imagen1 img:hover{
+	filter: blur(5px);
+}
+div#imagen2 img:hover{
+	filter: sepia(60%);
+}
+div#imagen3 img:hover{
+	filter: saturate(180%);
+}
+div#imagen4 img:hover{
+	-webkit-transform: rotateY(180deg);
+	-webkit-transform-style: preserve-3d;
+	transform: rotateY(180deg);
+	transform-style: preserve-3d;
+}
+div#imagen5 img:hover{
+	border-radius:50%;
+	-webkit-border-radius:50%;
+	box-shadow: 0px 0px 15px 15px blue;
+	-webkit-box-shadow: 0px 0px 15px 15px blue;
+	transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+}
+
+div#contenedor:hover #imagen6 {
+	-webkit-transform:scale(1.3);
+	filter: grayscale(90%);
+	transform:scale(1.3);
+}
+div#imagen7 img:hover{
+	filter: blur(5px);
+}
+div#imagen8 img:hover{
+	filter: blur(5px);
+}
+div#imagen9 img:hover{
+	filter: blur(5px);
+}
+div#contenedor {
+	overflow:hidden;
+}
+
+object{
+  border-radius:0px;
+
+  border-width: 8px;
+  border-color: #82005B;
+  border-style: outset;
+}
+
+
